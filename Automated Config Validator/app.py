@@ -6,7 +6,7 @@ between 1024-65535).
 
 Key Libraries: yaml, json, configparser.'''
 import yaml
-import json
+
 
 with open("Automated Config Validator/config.yaml") as f:
     data = yaml.safe_load(f)
